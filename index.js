@@ -1,7 +1,6 @@
 var MapboxClient = require('mapbox/lib/services/datasets');
 var dataset = 'cinboxanz004bwalx0ystu7ig';
 var DATASETS_BASE = 'https://api.mapbox.com/datasets/v1/ramyaragupathy/' + dataset + '/';
-// var selectedRoadsSource;
 var mapboxAccessDatasetToken = 'sk.eyJ1IjoicmFteWFyYWd1cGF0aHkiLCJhIjoiY2lvNTlobXRiMDFyMncza2p3M2FvaTFuNyJ9.8YSX2k7YzX6zU51el8HHBg';
 var mapboxAccessToken = 'pk.eyJ1IjoicGxhbmVtYWQiLCJhIjoiemdYSVVLRSJ9.g3lbg_eN0kztmsfIPxa9MQ';
 mapboxgl.accessToken = mapboxAccessToken;
